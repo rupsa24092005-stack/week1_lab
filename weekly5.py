@@ -56,7 +56,38 @@ for i in range(n):
 
 numbers.sort()
 
-second_largest = 
+second_largest = numbers[-2]
 
 print("List:", numbers)
 print("Second largest element:", second_largest)
+
+'''
+    ROTATE A LIST BY K POSITION 
+
+    IT'S BASICALLY MEAN MOVE THE ELEMENTS FROM K TO EITHER LEFT OR RIGHT, IN THE 
+    BELOW EXAMPLE THE LAST 3 ELEMENTS MOVED TO FIRST BECAUSE K = 2 (FROM INDEX 2) AND IT IS TO THE LEFT
+
+
+    lst = [1,2,3,4,5]
+    k = 2
+
+    rotated = lst[k:] + lst[:k]
+    print(rotated)
+
+    IF K = 2 BUT TO THE RIGHT THEN THE ELEMENTS AFTER INDEX 2 (LAST 2 ELEMENTS) MOVED TO 
+    THE FIRST 
+
+    lst = [1,2,3,4,5]
+    k = 2
+
+    rotated = lst[-k:] + lst[:-k]
+    print(rotated)
+
+
+    REMARKS :
+    ASSIGNMENT CHECKED 
+    SCORE 7 / 10
+
+
+
+'''
