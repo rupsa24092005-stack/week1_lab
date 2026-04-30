@@ -111,3 +111,24 @@ while True:
 
 # ASSIGNMENT 5 - Sort dictionary by values.
 # ASSIGNMENT 6 -  Merge two dictionaries without using built-in methods.
+
+
+'''
+   SORT DICTONARY BY VALUES 
+
+   sorted_dict = dict(sorted(student.items(), key=lambda item: item[1]))
+
+   MERGE TWO DICT WITHOUT BUILT IN METHODS 
+
+   merged = {}
+
+   for key in d1:
+    merged[key] = d1[key]
+
+   for key in d2:
+    merged[key] = d2[key]
+
+print(merged)
+
+
+'''

@@ -56,7 +56,19 @@ print("String after removing duplicates:", result)
 
 #ASSIGNMENT 6 Check whether two strings are anagrams.
 
+'''
+Two strings are anagrams if they contain the same 
+characters with the same frequency, just in a different order
 
+example code : 
+
+def are_anagrams(s1, s2):
+    return sorted(s1) == sorted(s2)
+
+print(are_anagrams("listen", "silent"))  # True
+print(are_anagrams("hello", "world"))    # False
+
+'''
 
 
 
