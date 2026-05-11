@@ -90,3 +90,46 @@ b1.deposit(2000)
 b1.withdraw(3000)
 b1.show_balance()
 #ASSIGNMENT 6 :- Demonstrate interaction between two objects
+
+'''
+    Here’s a simple example demonstrating interaction between two objects in Python using classes.
+We’ll create:
+
+A Player object
+An Enemy object
+
+The player will attack the enemy, and the enemy’s health will decrease.
+
+
+class Enemy:
+    def __init__(self, name, health):
+        self.name = name
+        self.health = health
+
+    def take_damage(self, damage):
+        self.health -= damage
+        print(f"{self.name} took {damage} damage!")
+        print(f"Remaining Health: {self.health}")
+
+
+class Player:
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def attack(self, enemy):
+        print(f"{self.name} attacks {enemy.name}!")
+        enemy.take_damage(self.power)
+
+
+# Creating objects
+player1 = Player("Sanatan", 25)
+enemy1 = Enemy("Dragon", 100)
+
+# Interaction between objects
+player1.attack(enemy1)
+
+
+    ASSIGNMENT CHECKED 
+    SCORE : 9/ 10 
+'''

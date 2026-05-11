@@ -86,3 +86,11 @@ s1.set_marks(85)
 
 print("Student Marks =", s1.get_marks())
 #ASSIGNMENT 6 :- Real-world OOP case study (Library system).
+
+'''
+    ANSWER TO ASSIGNEMTN 6 ALREADY SHOWN ON LAB 
+
+
+    ASSIGNEMTN CHECKED 
+    SCORE : 9 / 10 
+'''
